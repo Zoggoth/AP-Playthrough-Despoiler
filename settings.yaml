@@ -1,0 +1,18 @@
+# Settings for Archipelago Playthrough Despoiler
+
+"Sphere Tracker Link": "https://archipelago.gg/sphere_tracker/Z_5yJPOqTEKobVaZ0AWZNg"
+# Link to the sphere tracker, to detect which checks have already been found
+
+"Whole Sphere": 1
+# 0 prints 1 check at a time. The absolute minimum spoiler
+# 1 prints 1 sphere at a time. Gives you some choices of what to get next
+# 2 prints the entire list. Gives a lot of information, but still hides the item names
+
+"Display Item Names": 0
+# 0 hides item names to keep spoilers to a minimum
+# 1 shows item names so you can prioritise the big progression
+
+"Spoiler File Name": ""
+# The spoiler file should be put in this folder & named here
+# If no name is listed, it searches this folder for possible spoiler files
+# If generated online, the Seed Info page will have a download. If generated locally, the output .zip will contain a spoiler file
