@@ -72,7 +72,7 @@ for x in sphereMatches:
     checkMatches = re.findall("  ((.*? \(.*?\)): (.*?) \(.*?\))\n",x)
     toPrint = []
     for y in checkMatches:
-        checkName = re.search("^(.*) \([^()]*(?:\(.*\))*\)$", y[1])
+        checkName = re.search("^(.*) \(.{1,16}\)$", y[1])
         if y[2] == "Victory":  # Some victory events (e.g Yacht Dice) have to be identified by item instead of location
             continue
         if checkName[1] in eventList:
